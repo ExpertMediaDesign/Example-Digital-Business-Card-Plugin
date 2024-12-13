@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Curtis Bickler
+N;CHARSET=UTF-8:;Curtis Bickler;;;
+TITLE;CHARSET=UTF-8:Director
+ORG:Expert Media Design
+EMAIL;TYPE=work:curtis@expertmedia.design
+TEL;TYPE=WORK,VOICE:8138412544
+ADR;WORK;PREF:,;;;
+URL;type=pref:https://expertmedia.design
+X-SOCIALPROFILE;TYPE=facebook:
+X-SOCIALPROFILE;TYPE=linkedin:
+X-SOCIALPROFILE;TYPE=instagram:
+END:VCARD

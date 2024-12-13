@@ -1,0 +1,286 @@
+/*
+ * Personal Site styles
+ *
+ */
+
+/* Overall Styles */
+.personalsite .site-inner {
+    max-width: none;
+    padding: 0;
+}
+.personalsite {
+    background-color: #fff;
+}
+.personalsite button {
+    background-image: none;
+}
+
+
+/*
+ * Style2 - Default Template
+ */
+.personalsite {
+    background-color: #fff;
+}
+/*Header styles*/
+.personalsite .style2 .vcard-header {
+	background: rgb(0,113,188);
+	background: linear-gradient(90deg, rgba(5,0,96,1) 0%, rgba(0,113,188,1) 100%);
+}
+
+.personalsite .style2 .vcard-top-info {
+	/*max-width: 480px;*/
+    margin: 0 auto 0 auto;
+}
+
+.personalsite .style2 .vcard-header .top {
+	padding: 20px 0 20px 0;
+    color: #fff;
+    font-weight: 300;
+    opacity: 0.8; 
+}
+
+.personalsite .style2 .vcard-header .profile-img {
+	height:  95px;
+	width:  95px;
+	border-radius:  50%;
+	margin: 10px auto 0 auto;
+}
+
+.personalsite .style2 .vcard-header .profile-img img {
+	border-radius:  50%;
+}
+
+.personalsite .style2 .vcard-header .name {
+	padding: 20px 5px 15px 5px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+.personalsite .style2 .vcard-header .title {
+	padding: 0 5px 5px 5px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.personalsite .style2 .vcard-seperator {
+    height: 1px;
+    background-color: #eaeaea;
+    float: right;
+    /*width: calc(100% - 65px);*/
+    width: 100%;
+}
+
+
+.personalsite .style2 .vcard-functions {
+	display: block;
+    width: 100%;
+    text-align: center;
+    /*height: 60px;*/
+    margin-top: 4%;
+    border-top: 1px solid rgba(255,255,255,0.15);
+}
+
+.personalsite .style2 .vcard-functions-wrapper {
+	display: table;
+    margin: 0 auto;
+/*    width: 300px;*/
+    height: 56px;
+    text-align: center;
+}
+
+.personalsite .style2 .vcard-functions a {
+	cursor: pointer;
+    display: table-cell;
+    color: #fff;
+    padding: 15px 10px 10px;
+    min-width: 100px;
+    margin: 0;
+    border-right: 1px solid rgba(255,255,255,0.15);
+    text-decoration: none;
+}
+
+.personalsite .style2 .vcard-functions a:last-child {
+	border-right: 0px;
+}
+
+.personalsite .style2 .vcard-functions a i,
+.personalsite .style2 .vcard-functions a small {
+	display: inline-block;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+.personalsite .style2 .vcard-functions a i {
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+.personalsite .style2 .vcard-functions a small {
+    font-size: 1.3rem;
+}
+
+
+/*Body styles*/
+.personalsite .style2 .vcard-body {
+	background:  #fff;
+}
+
+.personalsite .style2 .vcard-body-wrapper {
+	/*width: 570px;*/
+    margin: 0 auto;
+    box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
+    margin-bottom: 60px;
+    /*padding:  20px;*/
+    overflow: hidden;
+}
+
+.personalsite .style2 .vcard-body-padding {
+	padding:  1rem;
+}
+
+.personalsite .style2 .vcard-body .vcard-row {
+	position: relative;
+    padding: 20px 0 20px 65px;
+    float: left;
+    width: 87%;
+}
+
+.personalsite .style2 .vcard-body .vcard-row .description {
+    padding: 0 15px 0 0;
+    color: #222222;
+}
+
+.personalsite .style2 .vcard-body .vcard-row h4 {
+	line-height: 1.3;
+    margin-top: 1rem;
+    margin-bottom: 5px;
+    color: #323032;
+    font-weight: 400;
+}
+
+.personalsite .style2 .vcard-body .vcard-row i {
+	position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 32px;
+    color: #b3b4bb;
+}
+
+.personalsite .style2 .vcard-body .vcard-social {
+	position: relative;
+	border-top: solid 1px #eaeaea;
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+
+.personalsite .style2 .vcard-body .vcard-social label {
+	margin-bottom:  10px;
+}
+
+.personalsite .style2 .vcard-body .vcard-social .channel-container {
+	cursor: pointer;
+    display: block;
+    position: relative;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+
+.personalsite .style2 .vcard-body .vcard-social div[class^='channel-bgd-'] {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    text-align: center;
+    position: absolute;
+    margin-right: 15px;
+    left: 0;
+}
+
+.channel-bgd-facebook {
+	background: #3b5998;
+}
+
+.channel-bgd-linkedin {
+    background: #0077b5;
+}
+
+.channel-bgd-insta {
+    background: #833AB4;
+}
+
+.personalsite .style2 .vcard-body .vcard-social .channel-container i {
+	color:  #fff;
+	text-decoration: none;
+	font-size: 22px;
+	line-height:  1.8;
+}
+
+.personalsite .style2 .vcard-body .vcard-download {
+	position: relative;
+    /*padding: 20px 0 20px 65px;*/
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.personalsite .style2 .vcard-body .vcard-button {
+    display: block;
+    width: 100%;
+    height: 56px;
+    border-radius: 2px;
+    margin-top: 0 !important;
+    background:  rgb(0,113,188);
+}
+
+.personalsite .style2 .vcard-body .vcard-label {
+	padding:  20px;
+	text-align:  center;
+}
+
+.personalsite .style2 .vcard-body .vcard-label h4,
+.personalsite .style2 .vcard-body .vcard-label i {
+	display:  inline-block;
+	color:  #fff;
+}
+
+
+
+
+
+/*Desktop specifics*/
+@media (min-width: 690px) {
+	/*Header styles*/
+	.personalsite .style2 .vcard-header {
+		padding-top: 60px;
+	}
+
+	.personalsite .style2 .vcard-header-wrapper {
+		width: 570px;
+	    margin: 0 auto;
+	    box-shadow: 0 -5px 40px 7px rgb(0 0 0 / 8%);
+	}
+
+	.personalsite .style2 .vcard-functions-wrapper {
+	    width: 570;
+	}
+
+	.personalsite .style2 .vcard-functions a {
+		min-width: 190px;
+	}
+
+	/*Body styles*/
+	.personalsite .style2 .vcard-body-wrapper {
+		width: 570px;
+	}
+	.personalsite .style2 .vcard-body .vcard-label {
+		padding:  10px;
+	}
+}

@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:3rd Try
+N;CHARSET=UTF-8:;3rd Try;;;
+TITLE;CHARSET=UTF-8:Amazing
+ORG:3rd Try
+EMAIL;TYPE=work:yyyy@expertmedia.design
+TEL;TYPE=WORK,VOICE:00000000
+ADR;WORK;PREF:601 Main St,;Tampa;FL;33605
+URL;type=pref:http://somewhre.com
+X-SOCIALPROFILE;TYPE=facebook:
+X-SOCIALPROFILE;TYPE=linkedin:
+X-SOCIALPROFILE;TYPE=instagram:
+END:VCARD
